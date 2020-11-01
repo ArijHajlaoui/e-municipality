@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="94460" started-at="2020-11-01T20:44:48 CET" finished-at="2020-11-01T20:46:22 CET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="94460" started-at="2020-11-01T20:44:48 CET" finished-at="2020-11-01T20:46:22 CET">
+      <class name="mycompany.login">
+        <test-method status="PASS" signature="launch()[pri:0, instance:mycompany.login@4abdb505]" name="launch" is-config="true" duration-ms="5154" started-at="2020-11-01T20:44:48 CET" finished-at="2020-11-01T20:44:53 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="log(java.lang.String, java.lang.String)[pri:0, instance:mycompany.login@4abdb505]" name="log" duration-ms="3273" started-at="2020-11-01T20:44:53 CET" data-provider="getdata1" finished-at="2020-11-01T20:44:56 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yahya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:mycompany.login@4abdb505]" name="launch" is-config="true" duration-ms="4366" started-at="2020-11-01T20:44:56 CET" finished-at="2020-11-01T20:45:01 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="log(java.lang.String, java.lang.String)[pri:0, instance:mycompany.login@4abdb505]" name="log" duration-ms="3283" started-at="2020-11-01T20:45:01 CET" data-provider="getdata1" finished-at="2020-11-01T20:45:04 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:mycompany.login@4abdb505]" name="launch" is-config="true" duration-ms="5419" started-at="2020-11-01T20:45:04 CET" finished-at="2020-11-01T20:45:09 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="signup(java.lang.String, java.lang.String)[pri:0, instance:mycompany.login@4abdb505]" name="signup" duration-ms="4034" started-at="2020-11-01T20:45:09 CET" data-provider="getdata2" finished-at="2020-11-01T20:45:13 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yahya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yahya]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:mycompany.login@4abdb505]" name="launch" is-config="true" duration-ms="4346" started-at="2020-11-01T20:45:13 CET" finished-at="2020-11-01T20:45:18 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="signup(java.lang.String, java.lang.String)[pri:0, instance:mycompany.login@4abdb505]" name="signup" duration-ms="3740" started-at="2020-11-01T20:45:18 CET" data-provider="getdata2" finished-at="2020-11-01T20:45:22 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yahya1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yahya1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:mycompany.login@4abdb505]" name="launch" is-config="true" duration-ms="5122" started-at="2020-11-01T20:45:22 CET" finished-at="2020-11-01T20:45:27 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="signup(java.lang.String, java.lang.String)[pri:0, instance:mycompany.login@4abdb505]" name="signup" duration-ms="4111" started-at="2020-11-01T20:45:27 CET" data-provider="getdata2" finished-at="2020-11-01T20:45:31 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:mycompany.login@4abdb505]" name="launch" is-config="true" duration-ms="5705" started-at="2020-11-01T20:45:31 CET" finished-at="2020-11-01T20:45:36 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="signup(java.lang.String, java.lang.String)[pri:0, instance:mycompany.login@4abdb505]" name="signup" duration-ms="4066" started-at="2020-11-01T20:45:36 CET" data-provider="getdata2" finished-at="2020-11-01T20:45:41 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yahyaaaa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yahyaaaa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:mycompany.login@4abdb505]" name="launch" is-config="true" duration-ms="4851" started-at="2020-11-01T20:45:41 CET" finished-at="2020-11-01T20:45:45 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="signup(java.lang.String, java.lang.String)[pri:0, instance:mycompany.login@4abdb505]" name="signup" duration-ms="6412" started-at="2020-11-01T20:45:45 CET" data-provider="getdata2" finished-at="2020-11-01T20:45:52 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YAHYAAAA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[YAHYAAAA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:mycompany.login@4abdb505]" name="launch" is-config="true" duration-ms="4261" started-at="2020-11-01T20:45:52 CET" finished-at="2020-11-01T20:45:56 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="signup(java.lang.String, java.lang.String)[pri:0, instance:mycompany.login@4abdb505]" name="signup" duration-ms="4849" started-at="2020-11-01T20:45:56 CET" data-provider="getdata2" finished-at="2020-11-01T20:46:01 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yahya1234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yahya12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:mycompany.login@4abdb505]" name="launch" is-config="true" duration-ms="8862" started-at="2020-11-01T20:46:01 CET" finished-at="2020-11-01T20:46:10 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="signup(java.lang.String, java.lang.String)[pri:0, instance:mycompany.login@4abdb505]" name="signup" duration-ms="12561" started-at="2020-11-01T20:46:10 CET" data-provider="getdata2" finished-at="2020-11-01T20:46:22 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yahya123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yahya1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method status="PASS" signature="close()[pri:0, instance:mycompany.login@4abdb505]" name="close" is-config="true" duration-ms="61" started-at="2020-11-01T20:46:22 CET" finished-at="2020-11-01T20:46:22 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- mycompany.login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
