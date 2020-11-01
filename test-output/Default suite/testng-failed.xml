@@ -5,7 +5,7 @@
     <classes>
       <class name="mycompany.login">
         <methods>
-          <include name="log"/>
+          <include name="log" invocation-numbers="2"/>
           <include name="launch"/>
         </methods>
       </class> <!-- mycompany.login -->
