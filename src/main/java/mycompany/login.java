@@ -1,5 +1,6 @@
 package mycompany;
 
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -38,21 +39,32 @@ public class login extends base {
 		WebElement org=driver.findElement(By.id("user.attributes.organisation"));
 		org.sendKeys("test");
 		WebElement crnumber=driver.findElement(By.id("user.attributes.crNumber"));
-		crnumber.sendKeys("122");
+		crnumber.sendKeys("1223456");
 		WebElement eemail=driver.findElement(By.id("email"));
-		eemail.sendKeys("testt@gmail.com");
+		eemail.sendKeys("test4@gmail.com");
 		WebElement phone=driver.findElement(By.id("user.attributes.phone"));
-		phone.sendKeys("1236");
+		phone.sendKeys("12367556");
 		WebElement office=driver.findElement(By.id("user.attributes.officeLocation"));
 		office.sendKeys("test");
 		WebElement user=driver.findElement(By.id("username"));
-		user.sendKeys("yahya111");
+		user.sendKeys("yahya1112345");
 		WebElement pass=driver.findElement(By.id("password"));
 		pass.sendKeys(pw);
 		WebElement passconfirm=driver.findElement(By.id("password-confirm"));
 		passconfirm.sendKeys(pwc);
 		WebElement signupp = driver.findElement(By.xpath("//*[@id=\"kc-form-buttons\"]/input"));
 		signupp.click();
+		String currentmessage = driver.findElement(By.id("kc-page-title")).getText();
+		String expectedmessage = "Account successfully created.";
+		Assert.assertNotEquals(currentmessage, expectedmessage);
+		System.out.println("password structure is respected");
+	
+		/*
+		 * Assert.assertFalse(driver.findElement(By.id("messageEr")).isDisplayed(),
+		 * "Account successfully created."); String ActualTitle =
+		 * driver.getCurrentUrl(); String ExpectedTitle = "Log in to Municipality";
+		 * Assert.assertEquals(ActualTitle, ExpectedTitle); System.out.println("True");
+		 */
 	}
 	@DataProvider
 	public Object[][] getdata2(){
