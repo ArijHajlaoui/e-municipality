@@ -21,8 +21,8 @@ public class base {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-	}@AfterMethod
-	public void close() {
-		driver.quit();
 	}
+	/*
+	 * @AfterMethod public void close() { driver.quit(); }
+	 */
 }
