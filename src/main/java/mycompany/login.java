@@ -4,6 +4,8 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -12,6 +14,13 @@ public class login extends base {
 	
 	@Test(dataProvider="getdata1")
 	public void log(String username, String password) {
+		  //select a language
+		  String value = "Arabic";
+		  WebElement dropdown = driver.findElement(By.id("kc-current-locale-link"));
+		  dropdown.click();
+		  dropdown.findElement(By.xpath("//a[contains(text(),'" + value + "')]")).click();
+		
+	//sign in
 	WebElement mail=driver.findElement(By.id("username"));
 	mail.sendKeys(username);
 	mail.sendKeys(Keys.TAB);
@@ -34,20 +43,32 @@ public class login extends base {
 	}
 	@Test(dataProvider="getdata2")
 	public void signup(String pw , String pwc) {
+
 		WebElement email=driver.findElement(By.linkText("Sign Up"));
 		email.click();
+		        //check if "contractor" is selected by default
+				WebElement contractor = driver.findElement(By.id("Contractor"));
+				Boolean x=contractor.isSelected();
+				if (x) {
+					System.out.println("Contractor is selected");
+				}
+				else {
+					System.out.println("Beneficiary is selected");
+				}
+				
+		//check password structure in sign up
 		WebElement org=driver.findElement(By.id("user.attributes.organisation"));
 		org.sendKeys("test");
 		WebElement crnumber=driver.findElement(By.id("user.attributes.crNumber"));
-		crnumber.sendKeys("1223456");
+		crnumber.sendKeys("122345678");
 		WebElement eemail=driver.findElement(By.id("email"));
-		eemail.sendKeys("test4@gmail.com");
+		eemail.sendKeys("test6@gmail.com");
 		WebElement phone=driver.findElement(By.id("user.attributes.phone"));
-		phone.sendKeys("12367556");
+		phone.sendKeys("1236755688");
 		WebElement office=driver.findElement(By.id("user.attributes.officeLocation"));
 		office.sendKeys("test");
 		WebElement user=driver.findElement(By.id("username"));
-		user.sendKeys("yahya1112345");
+		user.sendKeys("yahya111234555");
 		WebElement pass=driver.findElement(By.id("password"));
 		pass.sendKeys(pw);
 		WebElement passconfirm=driver.findElement(By.id("password-confirm"));
