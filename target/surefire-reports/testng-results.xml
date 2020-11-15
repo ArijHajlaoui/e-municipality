@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="9" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="85515" started-at="2020-11-05T22:48:50 CET" finished-at="2020-11-05T22:50:16 CET">
+  <suite name="Suite" duration-ms="97244" started-at="2020-11-15T21:41:52 CET" finished-at="2020-11-15T21:43:29 CET">
     <groups>
     </groups>
-    <test name="Test" duration-ms="85515" started-at="2020-11-05T22:48:50 CET" finished-at="2020-11-05T22:50:16 CET">
+    <test name="Test" duration-ms="97244" started-at="2020-11-15T21:41:52 CET" finished-at="2020-11-15T21:43:29 CET">
       <class name="mycompany.login">
-        <test-method status="PASS" signature="launch()[pri:0, instance:mycompany.login@5d76b067]" name="launch" is-config="true" duration-ms="7794" started-at="2020-11-05T22:48:50 CET" finished-at="2020-11-05T22:48:58 CET">
+        <test-method status="PASS" signature="launch()[pri:0, instance:mycompany.login@5d76b067]" name="launch" is-config="true" duration-ms="8523" started-at="2020-11-15T21:41:52 CET" finished-at="2020-11-15T21:42:01 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="log(java.lang.String, java.lang.String)[pri:0, instance:mycompany.login@5d76b067]" name="log" duration-ms="3908" started-at="2020-11-05T22:48:58 CET" data-provider="getdata1" finished-at="2020-11-05T22:49:02 CET">
+        <test-method status="PASS" signature="signinn(java.lang.String, java.lang.String)[pri:0, instance:mycompany.login@5d76b067]" name="signinn" duration-ms="4085" started-at="2020-11-15T21:42:01 CET" data-provider="getdata1" finished-at="2020-11-15T21:42:05 CET">
           <params>
             <param index="0">
               <value>
@@ -26,12 +26,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- log -->
-        <test-method status="PASS" signature="launch()[pri:0, instance:mycompany.login@5d76b067]" name="launch" is-config="true" duration-ms="4996" started-at="2020-11-05T22:49:02 CET" finished-at="2020-11-05T22:49:07 CET">
+        </test-method> <!-- signinn -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:mycompany.login@5d76b067]" name="launch" is-config="true" duration-ms="4609" started-at="2020-11-15T21:42:05 CET" finished-at="2020-11-15T21:42:09 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="log(java.lang.String, java.lang.String)[pri:0, instance:mycompany.login@5d76b067]" name="log" duration-ms="5562" started-at="2020-11-05T22:49:07 CET" data-provider="getdata1" finished-at="2020-11-05T22:49:13 CET">
+        <test-method status="PASS" signature="signinn(java.lang.String, java.lang.String)[pri:0, instance:mycompany.login@5d76b067]" name="signinn" duration-ms="5181" started-at="2020-11-15T21:42:09 CET" data-provider="getdata1" finished-at="2020-11-15T21:42:15 CET">
           <params>
             <param index="0">
               <value>
@@ -46,12 +46,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- log -->
-        <test-method status="PASS" signature="launch()[pri:0, instance:mycompany.login@5d76b067]" name="launch" is-config="true" duration-ms="3671" started-at="2020-11-05T22:49:13 CET" finished-at="2020-11-05T22:49:16 CET">
+        </test-method> <!-- signinn -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:mycompany.login@5d76b067]" name="launch" is-config="true" duration-ms="4137" started-at="2020-11-15T21:42:15 CET" finished-at="2020-11-15T21:42:19 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="signup(java.lang.String, java.lang.String)[pri:0, instance:mycompany.login@5d76b067]" name="signup" duration-ms="3744" started-at="2020-11-05T22:49:16 CET" data-provider="getdata2" finished-at="2020-11-05T22:49:20 CET">
+        <test-method status="PASS" signature="signup(java.lang.String, java.lang.String)[pri:0, instance:mycompany.login@5d76b067]" name="signup" duration-ms="4106" started-at="2020-11-15T21:42:19 CET" data-provider="getdata2" finished-at="2020-11-15T21:42:23 CET">
           <params>
             <param index="0">
               <value>
@@ -67,11 +67,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signup -->
-        <test-method status="PASS" signature="launch()[pri:0, instance:mycompany.login@5d76b067]" name="launch" is-config="true" duration-ms="3831" started-at="2020-11-05T22:49:20 CET" finished-at="2020-11-05T22:49:24 CET">
+        <test-method status="PASS" signature="launch()[pri:0, instance:mycompany.login@5d76b067]" name="launch" is-config="true" duration-ms="4743" started-at="2020-11-15T21:42:23 CET" finished-at="2020-11-15T21:42:28 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="signup(java.lang.String, java.lang.String)[pri:0, instance:mycompany.login@5d76b067]" name="signup" duration-ms="3517" started-at="2020-11-05T22:49:24 CET" data-provider="getdata2" finished-at="2020-11-05T22:49:27 CET">
+        <test-method status="PASS" signature="signup(java.lang.String, java.lang.String)[pri:0, instance:mycompany.login@5d76b067]" name="signup" duration-ms="3328" started-at="2020-11-15T21:42:28 CET" data-provider="getdata2" finished-at="2020-11-15T21:42:31 CET">
           <params>
             <param index="0">
               <value>
@@ -87,11 +87,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signup -->
-        <test-method status="PASS" signature="launch()[pri:0, instance:mycompany.login@5d76b067]" name="launch" is-config="true" duration-ms="4697" started-at="2020-11-05T22:49:27 CET" finished-at="2020-11-05T22:49:32 CET">
+        <test-method status="PASS" signature="launch()[pri:0, instance:mycompany.login@5d76b067]" name="launch" is-config="true" duration-ms="4663" started-at="2020-11-15T21:42:31 CET" finished-at="2020-11-15T21:42:36 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="signup(java.lang.String, java.lang.String)[pri:0, instance:mycompany.login@5d76b067]" name="signup" duration-ms="3670" started-at="2020-11-05T22:49:32 CET" data-provider="getdata2" finished-at="2020-11-05T22:49:36 CET">
+        <test-method status="PASS" signature="signup(java.lang.String, java.lang.String)[pri:0, instance:mycompany.login@5d76b067]" name="signup" duration-ms="3436" started-at="2020-11-15T21:42:36 CET" data-provider="getdata2" finished-at="2020-11-15T21:42:39 CET">
           <params>
             <param index="0">
               <value>
@@ -107,11 +107,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signup -->
-        <test-method status="PASS" signature="launch()[pri:0, instance:mycompany.login@5d76b067]" name="launch" is-config="true" duration-ms="5490" started-at="2020-11-05T22:49:36 CET" finished-at="2020-11-05T22:49:41 CET">
+        <test-method status="PASS" signature="launch()[pri:0, instance:mycompany.login@5d76b067]" name="launch" is-config="true" duration-ms="4742" started-at="2020-11-15T21:42:39 CET" finished-at="2020-11-15T21:42:44 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="signup(java.lang.String, java.lang.String)[pri:0, instance:mycompany.login@5d76b067]" name="signup" duration-ms="3612" started-at="2020-11-05T22:49:41 CET" data-provider="getdata2" finished-at="2020-11-05T22:49:45 CET">
+        <test-method status="PASS" signature="signup(java.lang.String, java.lang.String)[pri:0, instance:mycompany.login@5d76b067]" name="signup" duration-ms="3319" started-at="2020-11-15T21:42:44 CET" data-provider="getdata2" finished-at="2020-11-15T21:42:47 CET">
           <params>
             <param index="0">
               <value>
@@ -127,11 +127,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signup -->
-        <test-method status="PASS" signature="launch()[pri:0, instance:mycompany.login@5d76b067]" name="launch" is-config="true" duration-ms="3720" started-at="2020-11-05T22:49:45 CET" finished-at="2020-11-05T22:49:49 CET">
+        <test-method status="PASS" signature="launch()[pri:0, instance:mycompany.login@5d76b067]" name="launch" is-config="true" duration-ms="4905" started-at="2020-11-15T21:42:47 CET" finished-at="2020-11-15T21:42:52 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="FAIL" signature="signup(java.lang.String, java.lang.String)[pri:0, instance:mycompany.login@5d76b067]" name="signup" duration-ms="6267" started-at="2020-11-05T22:49:49 CET" data-provider="getdata2" finished-at="2020-11-05T22:49:55 CET">
+        <test-method status="FAIL" signature="signup(java.lang.String, java.lang.String)[pri:0, instance:mycompany.login@5d76b067]" name="signup" duration-ms="8375" started-at="2020-11-15T21:42:52 CET" data-provider="getdata2" finished-at="2020-11-15T21:43:00 CET">
           <params>
             <param index="0">
               <value>
@@ -155,7 +155,7 @@ at org.testng.Assert.failEquals(Assert.java:1041)
 at org.testng.Assert.assertNotEqualsImpl(Assert.java:147)
 at org.testng.Assert.assertNotEquals(Assert.java:1531)
 at org.testng.Assert.assertNotEquals(Assert.java:1535)
-at mycompany.login.signup(login.java:80)
+at mycompany.login.signup(login.java:70)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -194,11 +194,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signup -->
-        <test-method status="PASS" signature="launch()[pri:0, instance:mycompany.login@5d76b067]" name="launch" is-config="true" duration-ms="4005" started-at="2020-11-05T22:49:55 CET" finished-at="2020-11-05T22:49:59 CET">
+        <test-method status="PASS" signature="launch()[pri:0, instance:mycompany.login@5d76b067]" name="launch" is-config="true" duration-ms="8837" started-at="2020-11-15T21:43:00 CET" finished-at="2020-11-15T21:43:09 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="signup(java.lang.String, java.lang.String)[pri:0, instance:mycompany.login@5d76b067]" name="signup" duration-ms="3922" started-at="2020-11-05T22:49:59 CET" data-provider="getdata2" finished-at="2020-11-05T22:50:03 CET">
+        <test-method status="PASS" signature="signup(java.lang.String, java.lang.String)[pri:0, instance:mycompany.login@5d76b067]" name="signup" duration-ms="4270" started-at="2020-11-15T21:43:09 CET" data-provider="getdata2" finished-at="2020-11-15T21:43:13 CET">
           <params>
             <param index="0">
               <value>
@@ -214,11 +214,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signup -->
-        <test-method status="PASS" signature="launch()[pri:0, instance:mycompany.login@5d76b067]" name="launch" is-config="true" duration-ms="7579" started-at="2020-11-05T22:50:03 CET" finished-at="2020-11-05T22:50:10 CET">
+        <test-method status="PASS" signature="launch()[pri:0, instance:mycompany.login@5d76b067]" name="launch" is-config="true" duration-ms="9719" started-at="2020-11-15T21:43:13 CET" finished-at="2020-11-15T21:43:23 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="signup(java.lang.String, java.lang.String)[pri:0, instance:mycompany.login@5d76b067]" name="signup" duration-ms="5491" started-at="2020-11-05T22:50:10 CET" data-provider="getdata2" finished-at="2020-11-05T22:50:16 CET">
+        <test-method status="PASS" signature="signup(java.lang.String, java.lang.String)[pri:0, instance:mycompany.login@5d76b067]" name="signup" duration-ms="6227" started-at="2020-11-15T21:43:23 CET" data-provider="getdata2" finished-at="2020-11-15T21:43:29 CET">
           <params>
             <param index="0">
               <value>

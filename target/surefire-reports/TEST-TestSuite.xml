@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="88.409" tests="9" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="98.716" tests="9" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="FR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/arij/automation/e-municipality/target/surefire/surefirebooter696147279186363082.jar /home/arij/automation/e-municipality/target/surefire 2020-11-05T22-48-49_595-jvmRun1 surefire8757377784385726374tmp surefire_07137167251873271404tmp"/>
+    <property name="sun.java.command" value="/home/arij/automation/e-municipality/target/surefire/surefirebooter2451880660470878899.jar /home/arij/automation/e-municipality/target/surefire 2020-11-15T21-41-51_583-jvmRun1 surefire9064753590354192703tmp surefire_08108986453165257633tmp"/>
     <property name="surefire.test.class.path" value="/home/arij/automation/e-municipality/target/test-classes:/home/arij/automation/e-municipality/target/classes:/home/arij/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/arij/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/arij/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/arij/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/arij/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/arij/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/arij/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/arij/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/arij/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/arij/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/arij/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/arij/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/arij/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/arij/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/arij/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/arij/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/arij/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/arij/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/arij/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/arij/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/arij/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/home/arij/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/home/arij/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/home/arij/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/home/arij/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/arij/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/arij/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/home/arij/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/arij/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/home/arij/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/home/arij/.m2/repository/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.jar:/home/arij/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar:/home/arij/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar:/home/arij/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar:/home/arij/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar:/home/arij/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar:/home/arij/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar:/home/arij/.m2/repository/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.jar:/home/arij/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar:/home/arij/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar:/home/arij/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar:/home/arij/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar:/home/arij/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar:/home/arij/.m2/repository/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar:/home/arij/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar:/home/arij/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar:/home/arij/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar:/home/arij/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar:/home/arij/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar:/home/arij/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar:/home/arij/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/home/arij/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/home/arij/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/home/arij/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar:/home/arij/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/home/arij/.m2/repository/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar:/home/arij/.m2/repository/org/codehaus/plexus/plexus-java/0.9.10/plexus-java-0.9.10.jar:/home/arij/.m2/repository/org/ow2/asm/asm/6.2/asm-6.2.jar:/home/arij/.m2/repository/com/thoughtworks/qdox/qdox/2.0-M8/qdox-2.0-M8.jar:/home/arij/.m2/repository/org/codehaus/plexus/plexus-compiler-api/2.8.4/plexus-compiler-api-2.8.4.jar:/home/arij/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.jar:/home/arij/.m2/repository/org/codehaus/plexus/plexus-compiler-javac/2.8.4/plexus-compiler-javac-2.8.4.jar:/home/arij/.m2/repository/com/aventstack/extentreports/4.1.7/extentreports-4.1.7.jar:/home/arij/.m2/repository/org/freemarker/freemarker/2.3.29/freemarker-2.3.29.jar:/home/arij/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/home/arij/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/home/arij/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/arij/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/home/arij/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/home/arij/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/arij/.m2/repository/org/mongodb/mongodb-driver/3.12.0/mongodb-driver-3.12.0.jar:/home/arij/.m2/repository/org/mongodb/mongodb-driver-core/3.12.0/mongodb-driver-core-3.12.0.jar:/home/arij/.m2/repository/org/mongodb/bson/3.12.0/bson-3.12.0.jar:/home/arij/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/home/arij/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/home/arij/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/arij"/>
@@ -31,13 +31,13 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/arij/automation/e-municipality/target/surefire/surefirebooter696147279186363082.jar"/>
+    <property name="surefire.real.class.path" value="/home/arij/automation/e-municipality/target/surefire/surefirebooter2451880660470878899.jar"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="1.8.0_272-8u272-b10-0ubuntu1~20.04-b10"/>
+    <property name="java.runtime.version" value="1.8.0_275-8u275-b01-0ubuntu1~20.04-b01"/>
     <property name="user.name" value="arij"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="5.4.0-52-generic"/>
+    <property name="os.version" value="5.4.0-53-generic"/>
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
@@ -45,7 +45,7 @@
     <property name="localRepository" value="/home/arij/.m2/repository"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="java.version" value="1.8.0_272"/>
+    <property name="java.version" value="1.8.0_275"/>
     <property name="user.dir" value="/home/arij/automation/e-municipality"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
@@ -54,112 +54,112 @@
     <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Private Build"/>
-    <property name="java.vm.version" value="25.272-b10"/>
+    <property name="java.vm.version" value="25.275-b01"/>
     <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="log[yahya, admin](1)" classname="mycompany.login" time="3.895">
-    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 7971
+  <testcase name="signinn[yahya, admin](1)" classname="mycompany.login" time="4.078">
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 14432
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-nov. 05, 2020 10:48:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+nov. 15, 2020 9:41:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFOS: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="log[admin, Admin1234](2)" classname="mycompany.login" time="5.548">
-    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 30480
+  <testcase name="signinn[admin, Admin1234](2)" classname="mycompany.login" time="5.17">
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 13063
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-nov. 05, 2020 10:49:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+nov. 15, 2020 9:42:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFOS: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="signup[yahya, yahya](1)" classname="mycompany.login" time="3.737">
+  <testcase name="signup[yahya, yahya](1)" classname="mycompany.login" time="4.099">
     <system-out><![CDATA[Contractor is selected
 password structure is respected
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 3371
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 17859
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-nov. 05, 2020 10:49:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+nov. 15, 2020 9:42:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFOS: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="signup[yahya1, yahya1](2)" classname="mycompany.login" time="3.511">
+  <testcase name="signup[yahya1, yahya1](2)" classname="mycompany.login" time="3.322">
     <system-out><![CDATA[Contractor is selected
 password structure is respected
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 13196
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 31701
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-nov. 05, 2020 10:49:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+nov. 15, 2020 9:42:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFOS: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="signup[12345678, 12345678](3)" classname="mycompany.login" time="3.667">
+  <testcase name="signup[12345678, 12345678](3)" classname="mycompany.login" time="3.433">
     <system-out><![CDATA[Contractor is selected
 password structure is respected
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 18071
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 27653
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-nov. 05, 2020 10:49:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+nov. 15, 2020 9:42:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFOS: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="signup[yahyaaaa, yahyaaaa](4)" classname="mycompany.login" time="3.609">
+  <testcase name="signup[yahyaaaa, yahyaaaa](4)" classname="mycompany.login" time="3.316">
     <system-out><![CDATA[Contractor is selected
 password structure is respected
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 3279
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 23590
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-nov. 05, 2020 10:49:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+nov. 15, 2020 9:42:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFOS: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="signup[YAHYAAAA, YAHYAAAA](5)" classname="mycompany.login" time="6.266">
+  <testcase name="signup[YAHYAAAA, YAHYAAAA](5)" classname="mycompany.login" time="8.373">
     <failure message="did not expect [Account successfully created.] but found [Account successfully created.]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: did not expect [Account successfully created.] but found [Account successfully created.]
-	at mycompany.login.signup(login.java:80)
+	at mycompany.login.signup(login.java:70)
 ]]></failure>
     <system-out><![CDATA[Contractor is selected
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 4618
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 3692
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-nov. 05, 2020 10:49:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+nov. 15, 2020 9:42:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFOS: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="signup[Yahya1234, Yahya12](6)" classname="mycompany.login" time="3.919">
+  <testcase name="signup[Yahya1234, Yahya12](6)" classname="mycompany.login" time="4.268">
     <system-out><![CDATA[Contractor is selected
 password structure is respected
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 30194
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 5178
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-nov. 05, 2020 10:49:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+nov. 15, 2020 9:43:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFOS: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="signup[Yahya123, Yahya1234](7)" classname="mycompany.login" time="5.488">
+  <testcase name="signup[Yahya123, Yahya1234](7)" classname="mycompany.login" time="6.225">
     <system-out><![CDATA[Contractor is selected
 password structure is respected
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 16167
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 32170
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-nov. 05, 2020 10:50:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+nov. 15, 2020 9:43:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFOS: Detected dialect: W3C
 ]]></system-err>
   </testcase>
