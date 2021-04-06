@@ -1,16 +1,10 @@
 pipeline { 
-    agent any 
-    options {
-        skipStagesAfterUnstable()
+agent {
+        docker {
+            image 'maven:3-alpine'
+        }
     }
     stages {
-        stage('Build') {
-        agent {
-         docker {
-            image 'maven:3-alpine'
-          }
-         } 
-        }
         stage('Test'){
             steps {
                 sh 'mvn --version'
